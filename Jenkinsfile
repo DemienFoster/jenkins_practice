@@ -42,7 +42,7 @@ pipeline {
                 }
             }
             steps {
-                echo " BUILD DOCKER IMAGE"
+                echo "BUILD DOCKER IMAGE"
             }
         }
         stage('Deploy to Staging') {
